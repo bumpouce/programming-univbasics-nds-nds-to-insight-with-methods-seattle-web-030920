@@ -5,9 +5,10 @@ require 'directors_database'
 # using director_data as input
 def gross_for_director(director_data)
   
-  movies_count = 0 
+  movies_count = 0
+  gross = 0
   while movies_count < director_data[:movies].length do
-    pp "#{director_data[:movies][movies_count][:title]} grossed $ #{director_data[:movies][movies_count][:worldwide_gross]}" 
+    gross += director_data[:movies][movies_count][:worldwide_gross] 
     movies_count += 1 
   end
 
