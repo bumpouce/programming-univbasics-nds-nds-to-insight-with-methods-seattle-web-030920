@@ -25,7 +25,7 @@ def directors_totals(nds)
   result = {}
   directors_count = 0 
   
-  while directors_count < nds[:name].count do
+  while directors_count < nds.count do
     pp nds[:name][directors_count]
     directors_count += 1 
   end
