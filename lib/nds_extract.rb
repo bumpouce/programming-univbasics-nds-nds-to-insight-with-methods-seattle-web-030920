@@ -7,7 +7,7 @@ def gross_for_director(director_data)
   
   movies_count = 0 
   while movies_count < director_data[:movies].length do
-    pp "Argument data = #{director_data[:movies][movies_count]}" 
+    pp "#{director_data[:movies][movies_count][:title]} = #{director_data[:movies][movies_count][:worldwide_gross]" 
     movies_count += 1 
   end
 
