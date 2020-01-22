@@ -26,8 +26,8 @@ def directors_totals(nds)
   directors_count = 0 
   
   while directors_count < nds.count do
-    pp nds[:name][directors_count]
-    #earned $#{gross_for_director(nds[directors_count])}"
+    pp directors_count
+    #gross_for_director(nds[directors_count])"
     directors_count += 1 
   end
   result 
