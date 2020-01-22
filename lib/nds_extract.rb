@@ -25,11 +25,9 @@ def directors_totals(nds)
   result = {}
   directors_count = 0 
   
-  pp "Found #{nds.count} directors"
-  
-#  while directors_count < nds.count do
-#    pp nds[:name][directors_count]
-#    directors_count += 1 
-#  end
+  while directors_count < nds.count do
+    pp nds[directors_count]
+    directors_count += 1 
+  end
   result 
 end
