@@ -20,7 +20,13 @@ end
 # The return value should be like:
 #
 # { directorOne => allTheMoneyTheyMade, ... }
+
 def directors_totals(nds)
   result = {}
-  nil
+  directors_count = 0 
+  
+  while directors_count < nds[:director].count do
+    directors_count += 1 
+  end
+  
 end
